@@ -1,0 +1,7 @@
+python -m venv env
+env\Scripts\activate
+pip install openai streamlit langchain langchain-community
+set OPENAI_API_KEY=abc123xyz456
+set OPENAI_API_KEY=abc123xyz456
+pip install pypdf
+streamlit run app.py
